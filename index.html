@@ -1,34 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
     <title>Mousefart by mitch-cohen</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
+
   <body>
-    <div class="wrapper">
+    <a id="forkme_banner" href="https://github.com/mitch-cohen/mousefart">View on GitHub</a>
+    <div class="shell">
+
       <header>
-        <h1>Mousefart</h1>
-        <p>HAS SCIENCE GONE TOO FAR???</p>
-
-        <p class="view"><a href="https://github.com/mitch-cohen/mousefart">View the Project on GitHub <small>mitch-cohen/mousefart</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/mitch-cohen/mousefart/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/mitch-cohen/mousefart/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/mitch-cohen/mousefart">View On <strong>GitHub</strong></a></li>
-        </ul>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Mousefart</h1>
+            <h2>HAS SCIENCE GONE TOO FAR???</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
       </header>
-      <section>
-        <h1>mousefart.js</h1>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/mitch-cohen/mousefart/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/mitch-cohen/mousefart/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>mousefart.js </h1>
 
 <h2>The flatulent JQuery plugin based on <a href="http://theonion.github.io/fartscroll.js/">The Onion's fartscroll.js</a>
 </h2>
@@ -36,6 +54,20 @@
 <h2>Description</h2>
 
 <p>This plugins causes extreme defecation and flatulence of your mouse (or finger for you touchpad users) onto the unfortunate element. </p>
+
+<h2>FAQ</h2>
+
+<h3>Why?</h3>
+
+<p>Why not?  This was more of a "Hey, what can I do that is more fun than javascript programming?  A jQuery plugin involing farts!"</p>
+
+<h3>Where are your tests?</h3>
+
+<p>I did this in 30 minutes (most of it finding the dog poop image) so please don't expect much.</p>
+
+<h3>What do I expect if I fork it?</h3>
+
+<p>A very unhygienic fork.</p>
 
 <h2>Usage</h2>
 
@@ -49,12 +81,21 @@
 
 <p><code>$('.tacos').mousefart()</code></p>
       </section>
+
       <footer>
-        <p>This project is maintained by <a href="https://github.com/mitch-cohen">mitch-cohen</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/mitch-cohen">mitch-cohen</a> can be found on <a href="https://github.com/mitch-cohen/mousefart">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
       </footer>
+
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
