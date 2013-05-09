@@ -5,6 +5,7 @@ mousefart.js
 Description
 -----------
 
+This plugins causes extreme defecation and flatulence on the mouse (or finger for you touchpad users) onto the unfortunate element. 
 
 
 
