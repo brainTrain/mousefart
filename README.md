@@ -5,7 +5,7 @@ mousefart.js
 Description
 -----------
 
-This plugins causes extreme defecation and flatulence of your mouse (or finger for you touchpad users) onto the unfortunate element. 
+This plugins causes extreme defecation and flatulence of your mouse (or finger for you touchpad users) onto the unfortunate element. The base64 farts are from fartscroller.js.   God bless The Onion!
 
 FAQ
 ----
