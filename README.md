@@ -10,10 +10,10 @@ This plugins causes extreme defecation and flatulence of your mouse (or finger f
 FAQ
 ----
 ###Why?
-Why not?  This was more of a "Hey, what can I do that is more fun than javascript programming?  A jQuery plugin involing farts!"
+Why not?  This was more of a "Hey, what can I do that is more fun than javascript programming?  A jQuery plugin involving farts!"
 
 ###Where are your tests?
-I did this in 30 minutes (most of it finding the dog poop image) so please don't expect much.
+I did this in 30 minutes (most of it finding the dog poop image), so please don't expect much.
 
 
 ###What do I expect if I fork it?
